@@ -33,4 +33,3 @@ projects:
 
 footer: false
 ---
-<Newfont/>
