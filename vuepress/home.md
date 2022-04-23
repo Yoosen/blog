@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 icon: home
 title: 项目主页
 heroImage: /logo.svg
@@ -99,5 +99,5 @@ features:
     details: 包括图标支持、全屏按钮、返回顶部按钮等
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/
 copyright: false
-footer: MIT Licensed | Copyright © 2019-present Mr.Hope
+footer: MIT Licensed | Copyright © 2019-present Yoosen
 ---

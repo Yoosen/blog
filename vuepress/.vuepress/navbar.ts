@@ -2,7 +2,6 @@ import { defineNavbarConfig } from "vuepress-theme-hope";
 
 export default defineNavbarConfig([
   "/",
-  "/home",
   { text: "使用指南", icon: "creative", link: "/guide/" },
   {
     text: "博文",
@@ -43,10 +42,5 @@ export default defineNavbarConfig([
       "article11",
       "article12",
     ],
-  },
-  {
-    text: "主题文档",
-    icon: "note",
-    link: "https://vuepress-theme-hope.github.io/v2/zh/",
   },
 ]);

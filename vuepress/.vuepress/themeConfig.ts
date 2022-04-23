@@ -3,7 +3,7 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 export default defineThemeConfig({
-  hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
+  hostname: "https://yoosen.github.io/blog",
 
   author: {
     name: "Yoosen",
@@ -45,7 +45,7 @@ export default defineThemeConfig({
   blog: {
 	avatar: "/avatar.png",
     description: "啥也不是",
-    intro: "https://yoosen.github.io/about/",
+    intro: "/about",
     medias: {
       // Baidu: "https://example.com",
       // Bitbucket: "https://example.com",
@@ -93,15 +93,15 @@ export default defineThemeConfig({
     // 如果你不需要评论，可以直接删除 comment 配置，
     // 以下配置仅供体验，如果你需要评论，请自行配置并使用自己的环境，详见文档。
     // 为了避免打扰主题开发者以及消耗他的资源，请不要在你的正式环境中直接使用下列配置!!!!!
-    comment: {
-      /**
-       * Using giscus
-       */
-      type: "giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+    //comment: {
+    //  /**
+    //   * Using giscus
+    //   */
+    //  type: "giscus",
+    //  repo: "vuepress-theme-hope/giscus-discussions",
+    //  repoId: "R_kgDOG_Pt2A",
+    //  category: "Announcements",
+    //  categoryId: "DIC_kwDOG_Pt2M4COD69",
 
       /**
        * Using twikoo
@@ -114,7 +114,7 @@ export default defineThemeConfig({
        */
       // type: "waline",
       // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
-    },
+    //  },
 
     mdEnhance: {
       enableAll: true,
