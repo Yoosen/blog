@@ -5,6 +5,13 @@ export default defineSidebarConfig([
   "/home",
   "/slide",
   {
+    text: "C++ Tutorial",
+    icon: "bolt",
+    prefix: "/cpp/",
+    link: "/cpp/",
+    children: "structure",
+  },
+  {
     text: "如何使用",
     icon: "creative",
     prefix: "/guide/",

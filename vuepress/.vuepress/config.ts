@@ -9,6 +9,13 @@ export default defineHopeConfig({
   base: "/blog/",
 
   head: [
+	[
+	  "script",
+	  {
+		src: "https://kit.fontawesome.com/ca37c296c5.js",
+		crossorigin: "anonymous",
+	  },
+	],
     [
       "link",
       {

@@ -2,10 +2,18 @@ import { defineNavbarConfig } from "vuepress-theme-hope";
 
 export default defineNavbarConfig([
   "/",
-  { text: "使用指南", icon: "creative", link: "/guide/" },
+  { text: "使用指南", icon: "mound", link: "/guide/" },
+  { 
+	text: "C++", 
+    icon: "bolt", 
+    prefix: "/cpp/",
+    children: [
+      { text: "C++ Tutorial", icon: "bolt", link: "C++Tutorial" },
+    ],
+  },
   {
     text: "博文",
-    icon: "edit",
+    icon: "user-pen",
     prefix: "/posts/",
     children: [
       {

@@ -10,7 +10,8 @@ export default defineThemeConfig({
     url: "https://github.com/Yoosen",
   },
 
-  iconPrefix: "iconfont icon-",
+  // iconPrefix: "iconfont icon-",
+  iconPrefix: "fas fa-",
 
   logo: "/avatar.png",
   
