@@ -12,6 +12,13 @@ export default defineSidebarConfig([
     children: "structure",
   },
   {
+    text: "算法",
+    icon: "mound",
+    prefix: "/algorithm/",
+    link: "/algorithm/",
+    children: "structure",
+  },
+  {
     text: "如何使用",
     icon: "creative",
     prefix: "/guide/",

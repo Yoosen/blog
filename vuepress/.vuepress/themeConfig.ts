@@ -28,8 +28,10 @@ export default defineThemeConfig({
   fullscreen: false,
 
   repo: "Yoosen",
+  
+  docsRepo: "Yoosen/blog",
 
-  docsDir: "demo/src",
+  docsDir: "vuepress",
 
   // navbar
   navbar: navbar,
@@ -37,9 +39,9 @@ export default defineThemeConfig({
   // sidebar
   sidebar: sidebar,
 
-  footer: "默认页脚",
+  footer: "",
 
-  displayFooter: true,
+  displayFooter: false,
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 

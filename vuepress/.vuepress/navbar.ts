@@ -9,8 +9,10 @@ export default defineNavbarConfig([
     prefix: "/cpp/",
     children: [
       { text: "C++ Tutorial", icon: "bolt", link: "C++Tutorial" },
+      { text: "Vector", icon: "bolt", link: "Vector" },
     ],
   },
+  { text: "算法", icon: "mound", link: "/algorithm/" },
   {
     text: "博文",
     icon: "user-pen",
