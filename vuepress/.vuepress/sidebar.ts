@@ -19,6 +19,13 @@ export default defineSidebarConfig([
     children: "structure",
   },
   {
+    text: "面试",
+    icon: "mound",
+    prefix: "/interview/",
+    link: "/interview/",
+    children: "structure",
+  },
+  {
     text: "如何使用",
     icon: "creative",
     prefix: "/guide/",

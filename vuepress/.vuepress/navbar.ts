@@ -13,6 +13,15 @@ export default defineNavbarConfig([
     ],
   },
   { text: "算法", icon: "mound", link: "/algorithm/" },
+  { 
+	text: "面试", 
+    icon: "bolt", 
+    prefix: "/interview/",
+    children: [
+      { text: "MySQL", icon: "bolt", link: "MySQL" },
+      { text: "Vector", icon: "bolt", link: "Vector" },
+    ],
+  },
   {
     text: "博文",
     icon: "user-pen",

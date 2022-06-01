@@ -1,8 +1,6 @@
 ---
 # 这是侧边栏索引
 index: 1
-# 这是页面的图标
-icon: bolt
 # 这是文章的标题
 title: C++
 category:

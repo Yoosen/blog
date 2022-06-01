@@ -1,6 +1,5 @@
 ---
 index: 1
-icon: bolt
 category:
   - 教程
 ---
