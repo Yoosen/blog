@@ -91,7 +91,7 @@ export default defineThemeConfig({
 
   plugins: {
     blog: {
-      autoExcerpt: true,
+      autoExcerpt: false,
     },
 
     // 如果你不需要评论，可以直接删除 comment 配置，

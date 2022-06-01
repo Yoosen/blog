@@ -19,7 +19,7 @@ export default defineNavbarConfig([
     prefix: "/interview/",
     children: [
       { text: "MySQL", icon: "mysql", link: "MySQL" },
-      { text: "Vector", icon: "bolt", link: "Vector" },
+      { text: "操作系统", icon: "caozuoxitong", link: "os" },
     ],
   },
 ]);

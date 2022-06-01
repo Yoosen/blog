@@ -13,6 +13,10 @@ footer:
 
 ---
 
+MySQL的面试题目
+
+<!-- more -->
+
 # 1.MySQL 基础
 
 <p id="内部构造"></p>
@@ -43,7 +47,7 @@ footer:
 
 ## 1.2 Order By 是如何工作的
 
-<p id="执行顺序"></p>
+推荐阅读：[“order by”是怎么工作的？](https://www.cnblogs.com/a-phper/p/10313911.html)
 
 ## 1.3 SQL 语句中各关键字的执行顺序
 
