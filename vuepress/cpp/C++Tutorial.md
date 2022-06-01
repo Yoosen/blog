@@ -1,8 +1,9 @@
 ---
 # 这是侧边栏索引
 index: 1
+icon: biji
 # 这是文章的标题
-title: C++
+title: C++笔记
 category:
   - 教程
 # 此页面会出现在首页的文章板块中

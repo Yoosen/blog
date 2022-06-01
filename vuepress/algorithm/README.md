@@ -1,3 +1,12 @@
+---
+# 这是页面的图标
+icon: suanfabaoguanli
+category:
+  - 教程
+# 此页面会出现在首页的文章板块中
+star: true
+---
+
 # 算法
 
 ## CodeTop

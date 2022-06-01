@@ -1,6 +1,6 @@
 ---
 home: false
-icon: home
+icon: shouye
 title: 项目主页
 heroImage: /logo.svg
 heroText: 项目名称

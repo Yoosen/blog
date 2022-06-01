@@ -4,6 +4,5 @@ category:
   - 教程
 ---
 
-# 主要教程
-
 - [C++ 教程](C++Tutorial.md)
+- [Vector](Vector.md)

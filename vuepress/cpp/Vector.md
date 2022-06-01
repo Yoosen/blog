@@ -2,7 +2,7 @@
 # 这是侧边栏索引
 index: 2
 # 这是页面的图标
-
+icon: vector
 # 这是文章的标题
 title: Vector
 category:

@@ -1,12 +1,14 @@
-import { defineSidebarConfig } from "vuepress-theme-hope";
+import { arraySidebar } from "vuepress-theme-hope";
 
-export default defineSidebarConfig([
+export const software = arraySidebar([
   "/",
+  "/home",
   {
     text: "C++ Tutorial",
     icon: "cpp",
     prefix: "/cpp/",
     children: [
+      "",
       "C++Tutorial",
       "Vector",
     ],
@@ -17,11 +19,4 @@ export default defineSidebarConfig([
     prefix: "/algorithm/",
     children: "structure",
   },
-  {
-    text: "面试",
-    icon: "tanhuamianshi",
-    prefix: "/interview/",
-    children: "structure",
-  },
-  "/slide",
 ]);

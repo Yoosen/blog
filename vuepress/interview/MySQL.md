@@ -3,6 +3,7 @@
 index: 1
 # 这是文章的标题
 title: MySQL
+icon: mysql
 category:
   - 教程
 # 此页面会出现在首页的文章板块中
