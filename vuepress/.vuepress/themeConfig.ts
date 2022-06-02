@@ -48,7 +48,8 @@ export default defineThemeConfig({
   contributors: false,
   
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  // pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Date", "Category", "Tag", "ReadingTime"],
 
   blog: {
 	avatar: "/avatar.png",
@@ -85,6 +86,7 @@ export default defineThemeConfig({
       // Youtube: "https://example.com",
       // Zhihu: "https://example.com",
     },
+    articleInfo: ["Date", "PageView", "Category", "Tag", "ReadingTime"]
   },
 
   encrypt: {
