@@ -43,6 +43,10 @@ export default defineThemeConfig({
   footer: "",
 
   displayFooter: false,
+  
+  // 贡献者
+  contributors: false,
+  
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
