@@ -4,8 +4,9 @@ index: 1
 icon: biji
 # 这是文章的标题
 title: C++笔记
+date: 2022-04-20
 category:
-  - 教程
+  - cpp
 # 此页面会出现在首页的文章板块中
 star: true
 # 你可以自定义页脚

@@ -1,6 +1,7 @@
 ---
 index: false
 icon: creative
+date: 2019-06-01
 category:
   - 使用指南
 ---

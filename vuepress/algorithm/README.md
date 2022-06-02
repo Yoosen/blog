@@ -1,8 +1,10 @@
 ---
+title: 算法笔记
 # 这是页面的图标
 icon: suanfabaoguanli
+date: 2022-04-01
 category:
-  - 教程
+  - 算法
 # 此页面会出现在首页的文章板块中
 star: true
 ---

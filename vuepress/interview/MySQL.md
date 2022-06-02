@@ -4,8 +4,9 @@ index: 1
 # 这是文章的标题
 title: MySQL
 icon: mysql
+date: 2022-06-01
 category:
-  - 教程
+  - 面试
 # 此页面会出现在首页的文章板块中
 star: true
 # 你可以自定义页脚

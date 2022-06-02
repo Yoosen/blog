@@ -3,10 +3,11 @@
 index: 2
 # 这是页面的图标
 icon: vector
+date: 2022-04-05
 # 这是文章的标题
 title: Vector
 category:
-  - 教程
+  - cpp
 # 此页面会出现在首页的文章板块中
 star: true
 ---

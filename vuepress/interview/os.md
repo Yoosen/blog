@@ -4,6 +4,7 @@ index: 2
 # 这是文章的标题
 title: 操作系统
 icon: caozuoxitong
+date: 2022-06-01
 category:
   - 面试
 # 此页面会出现在首页的文章板块中
@@ -816,7 +817,7 @@ select / poll / epoll
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/dd4c60a2cf66423486b7de5ccbe0831a.png)
 
-```JavaScript
+```cpp
 #include <stdio.h>
 int main()
 {
