@@ -62,7 +62,7 @@ vector<vector<int> > vecto(row,vector<int>(vt[0].begin()+1,vt[0].begin()+3));///
 
 - & 与运算 两个位都是 1 时，结果才为 1，否则为 0，如
 
-  > ​    1 0 0 1 1
+  >   1 0 0 1 1
   >
   > & 1 1 0 0 1 
   >

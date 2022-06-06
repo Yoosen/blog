@@ -11,7 +11,7 @@ export default defineThemeConfig({
   },
 
   // iconPrefix: "iconfont icon-",
-  iconAssets: "//at.alicdn.com/t/font_3443684_hd9d32t1moe.css",
+  iconAssets: "//at.alicdn.com/t/font_3443684_k9mj3fej7at.css",
   iconPrefix: "iconfont icon-",
 
   logo: "/avatar.png",
