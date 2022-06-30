@@ -72,7 +72,7 @@ vector<vector<int> > vecto(row,vector<int>(vt[0].begin()+1,vt[0].begin()+3));///
 
 - | 或运算 两个位都是 0 时，结果才为 0，否则为 1，如
 
-  > ​&emsp;1 0 0 1 1
+  > &emsp;1 0 0 1 1
   >
   > & 1 1 0 0 1 
   >
@@ -82,13 +82,13 @@ vector<vector<int> > vecto(row,vector<int>(vt[0].begin()+1,vt[0].begin()+3));///
 
 - ^ 异或运算，两个位相同则为 0，不同则为 1，如
 
-  > ​&emsp;1 0 0 1 1
+  > &emsp;1 0 0 1 1
   >
   > & 1 1 0 0 1 
   >
   > &nbsp;&nbsp;`--------`
   >
-  > ​&emsp;0 1 0 1 0
+  > &emsp;0 1 0 1 0
 
 - ~ 取反运算，0 则变为 1，1 则变为 0，如
 
@@ -119,3 +119,23 @@ int a = 8; a << 3;
 移位前：1111 1111 1111 1111 1111 1111 1111 1000 
 
 移位后：1111 1111 1111 1111 1111 1111 1111 1111`
+
+
+
+## 分割字符串函数
+
+```cpp
+// s: 原始字符串
+// ip: 接收分割后的字符串数组
+// c: 分割字符
+// 例如：s = "1.117.176.213"
+// 分割后 ip = {"1", "117", 176, 213}
+
+void split(string s, vector<string>&ip, char c){
+    stringstream ss(s);
+    string tmp;
+    while(getline(ss,tmp,c))ip.push_back(tmp);
+    if(s.size()>0&&s.back()==c)ip.push_back({});
+}
+```
+

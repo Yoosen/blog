@@ -17,7 +17,7 @@ export default defineThemeConfig({
   logo: "/avatar.png",
   
   // 暗黑模式
-  darkmode: "switch",
+  darkmode: "toggle",
   
   // 禁用主题色
   themeColor: false,
