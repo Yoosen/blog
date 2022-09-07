@@ -18,6 +18,7 @@ export default defineNavbarConfig([
     icon: "tanhuamianshi", 
     prefix: "/interview/",
     children: [
+      { text: "面试", icon: "mianshianpai", link: "question" },
       { text: "MySQL", icon: "mysql", link: "MySQL" },
       { text: "操作系统", icon: "caozuoxitong", link: "os" },
       { text: "计算机网络", icon: "networks", link: "network" },

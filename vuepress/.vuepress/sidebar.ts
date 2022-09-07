@@ -21,7 +21,12 @@ export default defineSidebarConfig([
     text: "面试",
     icon: "tanhuamianshi",
     prefix: "/interview/",
-    children: "structure",
+    children: [
+      "question",
+      "MySQL",
+      "os",
+      "network",
+    ],
   },
   "/slide",
 ]);

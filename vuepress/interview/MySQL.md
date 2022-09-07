@@ -1,6 +1,6 @@
 ---
 # 这是侧边栏索引
-index: 1
+index: 2
 # 这是文章的标题
 title: MySQL
 icon: mysql

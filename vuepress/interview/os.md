@@ -1,6 +1,6 @@
 ---
 # 这是侧边栏索引
-index: 2
+index: 3
 # 这是文章的标题
 title: 操作系统
 icon: caozuoxitong
